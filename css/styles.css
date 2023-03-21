@@ -219,6 +219,10 @@ small, .small {
   font-size: 0.875em;
 }
 
+tiny, .tiny {
+  font-size: 0.675em;
+}
+
 mark, .mark {
   padding: 0.2em;
   background-color: #fcf8e3;
@@ -7809,6 +7813,11 @@ textarea.form-control-lg {
 
 .text-opacity-100 {
   --bs-text-opacity: 1;
+}
+
+.bg-dgrey {
+  --bs-bg-opacity: 1;
+  background-color: rgb(0 0 0 / 8%) !important;
 }
 
 .bg-primary {
