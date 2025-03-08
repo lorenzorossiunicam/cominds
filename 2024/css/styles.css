@@ -584,32 +584,6 @@ progress {
   }
 }
 
-.organizer { 
-    word-wrap: break-word; 
-}
-
-@media (max-width: 480px) {
-  .organizer {
-  max-width: 100%;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 720px) {
-  .organizer {
-  max-width: 45%;
-  }
-}
-
-@media (min-width: 720px) {
-  .organizer {
-  max-width: 30%;
-  }
-}
-
-.hidden {
-  display: none;
-}
-
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -650,9 +624,6 @@ progress {
   content: "— ";
 }
 
-.spons {
-  max-height: 50px;
-}
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -7999,7 +7970,6 @@ textarea.form-control-lg {
 
 .rounded-circle {
   border-radius: 50% !important;
-  max-width: 200px;
 }
 
 .rounded-pill {
@@ -11387,7 +11357,7 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  background-image: url('../assets/img/banner.png');
+  background-image: url('../assets/img/rome.jpeg');
   text-shadow: 2px 2px 5px #3f51b5;
 }
 
